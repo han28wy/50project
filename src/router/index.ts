@@ -26,9 +26,24 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import(/* webpackChunkName: "about" */ '../views/2progressStep.vue')
   },
   {
+    path: '/3rotate',
+    name: 'rotate',
+    component: () => import(/* webpackChunkName: "about" */ '../views/3rotateNav.vue')
+  },
+  {
     path: '/4search',
     name: 'search',
     component: () => import(/* webpackChunkName: "about" */ '../views/4hiddenSearch.vue')
+  },
+  {
+    path: '/5blur',
+    name: '5blur',
+    component: () => import(/* webpackChunkName: "about" */ '../views/5blurLoading.vue')
+  },
+  {
+    path: '/6scroll',
+    name: '6scroll',
+    component: () => import(/* webpackChunkName: "about" */ '../views/6scrollAnimation.vue')
   }
 ]
 
