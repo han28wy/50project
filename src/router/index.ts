@@ -16,12 +16,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
   {
-    path: '/expandingCard',
+    path: '/1expandingCard',
     name: 'expandingCard',
     component: () => import(/* webpackChunkName: "about" */ '../views/1expandingCard.vue')
   },
   {
-    path: '/progress',
+    path: '/2progress',
     name: 'progress',
     component: () => import(/* webpackChunkName: "about" */ '../views/2progressStep.vue')
   },
@@ -44,6 +44,41 @@ const routes: Array<RouteRecordRaw> = [
     path: '/6scroll',
     name: '6scroll',
     component: () => import(/* webpackChunkName: "about" */ '../views/6scrollAnimation.vue')
+  },
+  {
+    path: '/7splitPage',
+    name: '7splitPage',
+    component: () => import(/* webpackChunkName: "about" */ '../views/7splitPage.vue')
+  },
+  {
+    path: '/15counter',
+    name: '15counter',
+    component: () => import(/* webpackChunkName: "about" */ '../views/15counter.vue')
+  },
+  {
+    path: '/18Slider',
+    name: '18Slider',
+    component: () => import(/* webpackChunkName: "about" */ '../views/18Slider.vue')
+  },
+  {
+    path: '/19clock',
+    name: '19clock',
+    component: () => import(/* webpackChunkName: "about" */ '../views/19clock.vue')
+  },
+  {
+    path: '/24contentPlaceholder',
+    name: '24contentPlaceholder',
+    component: () => import(/* webpackChunkName: "about" */ '../views/24contentPlaceholder.vue')
+  },
+  {
+    path: '/40BackgroundBox',
+    name: '40BackgroundBox',
+    component: () => import(/* webpackChunkName: "about" */ '../views/40BackgroundBox.vue')
+  },
+  {
+    path: '/42UserFilter',
+    name: '42UserFilter',
+    component: () => import(/* webpackChunkName: "about" */ '../views/42UserFilter.vue')
   }
 ]
 
