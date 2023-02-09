@@ -42,7 +42,7 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: '/6scroll',
-    name: '6scroll',
+    name: 'scroll',
     component: () => import(/* webpackChunkName: "about" */ '../views/6scrollAnimation.vue')
   }
 ]
