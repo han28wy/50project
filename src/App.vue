@@ -2,6 +2,11 @@
   <nav>
     <!-- <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> -->
+    <router-link to="/1expandingCard">1expandingCard</router-link>
+    <router-link to="/2progress">2progress</router-link>
+    <router-link to="/3rotate">3rotate</router-link>
+    <router-link to="/4search">4search</router-link>
+    <router-link to="/5blur">5blur</router-link>
   </nav>
   <router-view/>
 </template>
